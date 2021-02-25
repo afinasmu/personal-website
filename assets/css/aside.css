@@ -1,0 +1,76 @@
+.asideContainer {
+  flex: 0.2;
+}
+
+.asideContainer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.asideContainer ul li {
+  position: relative;
+  padding-top: 18px;
+}
+
+.asideContainer ul li img {
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+
+.asideContainer ul li .title {
+  color: #17827B;
+  font-size: 12px;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 1.66;
+}
+
+.asideContainer ul li .titleMobile {
+  color: #17827B;
+  font-size: 12px;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 1.66;
+}
+
+.asideContainer ul li .subtitle {
+  color: #212121;
+  font-size: 12px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 1.66;
+}
+
+.profileWrap > img {
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.profileWrap > p {
+  align-self: center;
+  margin: 0px 20px;
+  font-size: 14px;
+}
+
+.profile-img {
+  width: 150px;
+  border-radius: 100px;
+  text-align: center;
+}
+
+@media (max-width: 1299px) {
+  .asideContainer ul li .title {
+    display: none;
+  }
+}
+
+.profileWrap {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #17827B;
+  margin-bottom: 20px;
+}
